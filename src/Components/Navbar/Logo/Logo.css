@@ -1,0 +1,17 @@
+.logo {
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: centerF;
+        cursor: pointer;
+}
+.logo span {
+        color: #f1c40f;
+        font-size: 2.8rem;
+        text-align: center;
+}
+.logo h3 {
+        font-size: 2.8rem;
+        color: #ecf0f1;
+}

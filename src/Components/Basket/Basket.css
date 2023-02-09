@@ -1,0 +1,119 @@
+.basket {
+        padding-top: 10rem;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+}
+.sobatel {
+        width: 20%;
+        height: 15rem;
+        background-color: #fbc531;
+        padding: 2rem 1rem;
+        border-radius: 0.5rem;
+        color: #2f3640;
+        font-size: 1.8rem;
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        box-shadow: 0.1rem 0.1rem 1rem #2f3640;
+}
+.btn-cart {
+        background-color: #f5f6fa;
+        color: #2f3640;
+        outline: none;
+        border: none;
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        transition: all ease-in-out 0.5s;
+}
+.btn-cart:hover {
+        background-color: #2f3640;
+        color: #f5f6fa;
+        box-shadow: 0.1rem 0.1rem 0.5rem #2f3640;
+}
+.productList {
+        width: 70%;
+        height: 80%;
+        padding: 1rem 1.5rem;
+        border-radius: 0.5rem;
+        background-color: #f5f6fa;
+}
+.productList ul {
+        width: 100%;
+}
+.productList ul li {
+        display: flex;
+        float: row;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 0.1rem solid #2f3640;
+        padding: 1rem 0;
+}
+.productList ul li h3 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #2f3640;
+}
+.productList ul li:first-child {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 0.1rem solid #fbc531;
+}
+.productList ul li:first-child h3:last-child {
+        padding: 0 6.5rem;
+}
+.contorol {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+}
+.contorol h3 {
+        padding: 0 1rem;
+}
+.contorol button {
+        padding: 0 1rem;
+        font-size: 1.5rem;
+        color: #2f3640;
+        border-radius: 0.3rem;
+        outline: none;
+        border: none;
+}
+.contorol .remove {
+        background-color: #e84118;
+}
+.contorol .remove:hover {
+        background-color: #f13708;
+        color: #000;
+}
+.contorol .add {
+        background-color: #4cd137;
+        margin-right: 0.5rem;
+}
+.contorol .add:hover {
+        background-color: #26ec07;
+        color: #000;
+}
+@media (max-width: 920.9px) {
+        .basket {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+        }
+        .productList {
+                width: 80%;
+                margin-top: 2rem;
+        }
+        .sobatel {
+                width: 80%;
+        }
+}

@@ -1,0 +1,83 @@
+.card {
+        width: 100%;
+        height: 35rem;
+        border: solid 0.09rem #eee;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0.3rem;
+        transition: all 0.5s ease-in-out;
+        text-transform: capitalize;
+}
+.card:hover {
+        box-shadow: 0.1rem 0.1rem 1rem #2f3640;
+}
+.image-card {
+        width: 100%;
+        height: 20rem;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        border-radius: 0.3rem 0.3rem 0 0;
+}
+.image-card img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.3rem 0.3rem 0 0;
+}
+.desc-card {
+        width: 100%;
+        height: 50%;
+        padding: 0.5rem 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+}
+.card .desc-card .info {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        color: #2f3640;
+        font-size: 2.3rem;
+        font-weight: 700;
+        align-items: center;
+}
+.rate .bx {
+        font-size: 2rem;
+        color: #fbc531;
+}
+.card-btn {
+        width: 90%;
+        background-color: #2f3640;
+        font-size: 1.8rem;
+        color: #fbc531;
+        border: none;
+        outline: none;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+}
+.card-btn:hover {
+        color: #f5f6fa;
+        box-shadow: 0.1rem 0.1rem 0.5rem #2f3640;
+        cursor: pointer;
+}
+.card a {
+        width: 100%;
+        height: 100%;
+}
+@media screen and (max-width: 640px) {
+        .card {
+                display: flex;
+                flex-direction: row-reverse;
+                height: 20rem;
+        }
+        .image-card {
+                width: 30rem;
+                height: 100%;
+        }
+        .desc-card {
+                height: 100%;
+                justify-content: space-between;
+        }
+}
